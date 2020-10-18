@@ -1,0 +1,11 @@
+{
+  "name": "nav",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:kongyi5/nav.git",
+  "author": "kongyi <jerrykongyi1997@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  }
+}
